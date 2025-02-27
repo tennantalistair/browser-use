@@ -37,7 +37,7 @@ langchain-fireworks = ">=0.2.6"
 langchain-google-genai = "==2.0.8"
 
 [tool.poetry.urls]
-repository = "https://github.com/browser-use/browser-use"
+repository = "https://github.com/browser-use/browser_use"
 
 [tool.poetry.dev-dependencies]
 ruff = ">=0.1.0"
