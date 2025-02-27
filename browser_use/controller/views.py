@@ -3,6 +3,11 @@ app = Flask(__name__)
 
 from typing import Optional
 
+@app.route('/')
+def index():
+    return "Hello, World!"
+
+
 from pydantic import BaseModel, model_validator
 
 
