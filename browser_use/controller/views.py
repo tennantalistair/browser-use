@@ -1,3 +1,6 @@
+from flask import Flask
+app = Flask(__name__)
+
 from typing import Optional
 
 from pydantic import BaseModel, model_validator
